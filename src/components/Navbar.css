@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   padding: 1rem 2rem;
   background: #121212;
 }
@@ -36,4 +37,21 @@
   padding: 0.2rem 0.8rem;
   border-radius: 4px;
   border: none;
+}
+
+
+@media (max-width: 426px){
+  #navbar {
+    flex-direction: column;
+  }
+  #navbar form {
+    width: 100%;
+  }
+  #navbar h2 a {
+    margin-bottom: 1rem;
+  }
+  #navbar input{
+    display: inline-flex;
+    width: 90%;
+  }
 }

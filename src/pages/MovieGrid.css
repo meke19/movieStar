@@ -59,3 +59,25 @@
   background-color: transparent;
   color: #00bfff;
 }
+
+@media (max-width: 768px){
+  .movie-card .details{
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 426px){
+  .movies-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .movies-container .movie-card {
+    width: 100%;
+  }
+  .container .title {
+    font-size: 1.3rem;
+  }
+}

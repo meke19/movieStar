@@ -5,11 +5,13 @@ import {
   BsWallet2,
   BsHourglassSplit,
   BsFillFileEarmarkTextFill,
+  BsCalendarDate,
 } from "react-icons/bs";
 
 import MovieCard from "../components/MovieCard";
 
 import "./Movie.css";
+
 
 const moviesURL = import.meta.env.VITE_API;
 const key = import.meta.env.VITE_API_KEY;
@@ -31,6 +33,7 @@ const Movie = () => {
         currency: "USD"
     });
   };
+
 
   useEffect(() => {
     const movieUrl = `${moviesURL}${id}?${key}&language=pt-BR`;
@@ -54,6 +57,12 @@ const Movie = () => {
                     <BsGraphUp/> Faturamento:
                 </h2>
                 <p>{formatCurrency(movie.revenue)}</p>
+            </div>
+            <div className="info">
+                <h2>
+                    <BsCalendarDate/> Data de lançamento:
+                </h2>
+                <p>{movie.release_date}</p>
             </div>
             <div className="info">
                 <h2>

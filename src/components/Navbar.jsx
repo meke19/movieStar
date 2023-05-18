@@ -24,16 +24,17 @@ const Navbar = () => {
           Moviestar
         </Link>
       </h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Busque o seu filme"
-          onChange={(e) => setSearch(e.target.value)}
-          value={search}
-        />
-        <button type="submit">
-          <BiSearchAlt2 />
-        </button>
+      <form onSubmit={handleSubmit} >
+          <input
+            type="text"
+            placeholder="Busque o seu filme"
+            onChange={(e) => setSearch(e.target.value)}
+            value={search}
+            className="campo-busca"
+          />
+          <button type="submit">
+            <BiSearchAlt2 />
+          </button>
       </form>
     </nav>
   );
