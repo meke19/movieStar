@@ -6,3 +6,26 @@ https://movie-star-iota.vercel.app/<br><br/>
 <img width="211" alt="image" src="https://github.com/meke19/movieStar/assets/104653985/a10d55ab-4b25-424a-a846-0c191f332512">
 <h1>Layout web</h1>
 <img width="948" alt="projetoimg" src="https://github.com/meke19/movieStar/assets/104653985/529dd996-6d5f-43f4-ae4f-21ece8b063b6">
+
+# Tecnologias utilizadas
+- Vite (servidor de desenvolvimento local)
+- React
+- CSS
+- JSX
+- React-Router-Dom
+# Como executar o projeto
+```bash
+# clonar o repositório
+git clone git@github.com:meke19/movieStar.git
+
+# entrar na pasta movieStar
+cd movieStar
+
+# executar o projeto
+npm run dev
+```
+# Autor
+
+Marcos Vinicius Palmeira Cardoso
+
+https://www.linkedin.com/in/marcos-vinicius-29874622a/
